@@ -11,6 +11,7 @@ public class Intro {
         String s4 = "Apple";
         String s5 = "Today is a good day to code";
         String s6 = "a good day";
+        String s7 = "apple";
 
         /** compareTo() **/
 
@@ -32,5 +33,19 @@ public class Intro {
         /** endsWith() **/
 
         System.out.println(s5.endsWith("to code"));
+
+        /** startsWith() **/
+
+        System.out.println(s6.startsWith("a go"));
+
+        /** replace() **/
+
+        System.out.println(s7.replace("p", "*"));
+
+        /** substring() **/
+
+        System.out.println(s7.substring(1,3));
+
+
     }
 }
